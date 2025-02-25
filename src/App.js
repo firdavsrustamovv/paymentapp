@@ -1,5 +1,11 @@
 import { style } from "./util/style";
-import { Home, Navbar } from "./components/index";
+import {
+  Billing,
+  Contract,
+  Home,
+  Navbar,
+  Statistics,
+} from "./components/index";
 
 function App() {
   return (
@@ -7,7 +13,18 @@ function App() {
       <div className={`${style.paddingX}  ${style.flexStart}`}>
         <div className={`${style.container}`}>
           <Navbar />
+        </div>
+      </div>
+      <div className={`bg-primary ${style.flexStart}`}>
+        <div className={`${style.container} container`}>
           <Home />
+        </div>
+      </div>
+      <div className={`bg-primary ${style.paddingX}  ${style.flexStart}`}>
+        <div className={`${style.container} container`}>
+          <Statistics />
+          <Contract />
+          <Billing />
         </div>
       </div>
     </div>

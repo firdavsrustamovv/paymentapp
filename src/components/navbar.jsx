@@ -17,7 +17,7 @@ const Navbar = () => {
             {navigationLinks.map((nav, idx) => (
                 <li key={nav.id} className={`font-montserrat font-normal text-white cursor-pointer text-[16px] 
                   ${idx === navigationLinks.length - 1 ? 'mr-0' : 'mr-10'} 
-                  ${active === nav.id ? "text-white" : "text-slate-400"}
+                  ${active === nav.id ? "text-white" : "text-zinc-400"}
                   hover:text-white transition-all duration-300`}
                   onClick={() => activeHandler(nav.id)}
                   >{nav.title}</li>
@@ -30,7 +30,7 @@ const Navbar = () => {
             {navigationLinks.map((nav, idx) => (
                 <li key={nav.id} className={`font-montserrat font-normal text-white cursor-pointer text-[16px] 
                   ${idx === navigationLinks.length - 1 ? 'mr-0' : 'mr-10'} 
-                  ${active === nav.id ? "text-white" : "text-slate-400"}
+                  ${active === nav.id ? "text-white" : "text-zinc-400"}
                   hover:text-white transition-all duration-500`}
                   onClick={() => activeHandler(nav.id)}
                   >{nav.title}</li>

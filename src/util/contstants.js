@@ -16,3 +16,22 @@ export const navigationLinks = [
     title: "Mijozlar",
   },
 ];
+
+export const statistics = [
+  {
+    id: 1,
+    title: "Faol Foydalanuvchi",
+    value: "9300",
+  },
+  {
+    id: 2,
+    title: "Kompaniya Homiyligi",
+    value: "100+",
+  },
+  {
+    id: 3,
+    title: "Tranzaksiya",
+    value: "100M+",
+  },
+];
+
