@@ -17,7 +17,7 @@ const home = () => {
             <div className="w-full">
               <h1 className={`${style.heading1}`}>Yangi Avlod <br /> <span className="text-gradient">To'lov Usuli</span></h1>
             </div>
-            <p className={`${style.paragraph} mt-5 max-w-[550px]`}>
+            <p className={`${style.paragraph} mt-5 max-w-[500px]`}>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
           Cupiditate omnis eius eligendi ipsum nesciunt. Ipsam        
           reprehenderit aliquid modi accusamus itaque.

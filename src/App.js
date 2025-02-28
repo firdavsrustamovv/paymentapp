@@ -1,6 +1,7 @@
 import { style } from "./util/style";
 import {
   Billing,
+  Business,
   Contract,
   Home,
   Navbar,
@@ -25,6 +26,7 @@ function App() {
           <Statistics />
           <Contract />
           <Billing />
+          <Business />
         </div>
       </div>
     </div>
