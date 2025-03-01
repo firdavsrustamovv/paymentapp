@@ -3,9 +3,11 @@ import {
   Billing,
   Business,
   Contract,
+  Cta,
   Home,
   Navbar,
   Statistics,
+  Testimonials,
 } from "./components/index";
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
           <Contract />
           <Billing />
           <Business />
+          <Testimonials />
+          <Cta />
         </div>
       </div>
     </div>

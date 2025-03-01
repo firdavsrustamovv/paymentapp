@@ -5,3 +5,5 @@ export { default as Contract } from "./contract";
 export { default as Billing } from "./billing";
 export { default as Business } from "./business";
 export { default as FeutureCard } from "./feutureCard";
+export { default as Cta } from "./cta";
+export { default as Testimonials } from "./testimonials";
