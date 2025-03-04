@@ -2,6 +2,7 @@ import { style } from "./util/style";
 import {
   Billing,
   Business,
+  Clients,
   Contract,
   Cta,
   Home,
@@ -30,6 +31,7 @@ function App() {
           <Billing />
           <Business />
           <Testimonials />
+          <Clients />
           <Cta />
         </div>
       </div>

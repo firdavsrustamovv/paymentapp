@@ -60,3 +60,27 @@ export const features = [
       "Balansni o'tkazish kredit kartasi sizga foizlarni to'lashda ko'p pul tejash imkonini beradi",
   },
 ];
+
+export const feedback = [
+  {
+    id: 1,
+    name: "Dilshod",
+    title: "Faol Foydalanuvchi",
+    feedback:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptate reprehenderit odio. Sequi beatae fugit culpa.",
+  },
+  {
+    id: 2,
+    name: "Turdumurod",
+    title: "Faol Foydalanuvchi",
+    feedback:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptate reprehenderit odio. Sequi beatae fugit culpa.",
+  },
+  {
+    id: 3,
+    name: "Nursulton",
+    title: "Faol Foydalanuvchi",
+    feedback:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptate reprehenderit odio. Sequi beatae fugit culpa.",
+  },
+];
