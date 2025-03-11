@@ -9,3 +9,5 @@ export { default as Cta } from "./cta";
 export { default as Testimonials } from "./testimonials";
 export { default as FeedbackCard } from "./feedbackCard";
 export { default as Clients } from "./clients";
+export { default as ClientCard } from "./clientCard";
+export { default as Footer } from "./footer";

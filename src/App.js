@@ -5,6 +5,7 @@ import {
   Clients,
   Contract,
   Cta,
+  Footer,
   Home,
   Navbar,
   Statistics,
@@ -35,6 +36,7 @@ function App() {
           <Cta />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,4 +1,12 @@
-import { send, shield, star } from "../assets";
+import {
+  airlab,
+  binance,
+  coinbox,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navigationLinks = [
   {
@@ -82,5 +90,82 @@ export const feedback = [
     title: "Faol Foydalanuvchi",
     feedback:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptate reprehenderit odio. Sequi beatae fugit culpa.",
+  },
+];
+
+export const client = [
+  {
+    id: 1,
+    logo: airlab,
+  },
+  {
+    id: 2,
+    logo: coinbox,
+  },
+  {
+    id: 3,
+    logo: binance,
+  },
+  {
+    id: 4,
+    logo: dropbox,
+  },
+];
+
+export const footerLinks = [
+  {
+    title: "Jamiyat",
+    links: [
+      {
+        name: "Yordam Markazi",
+        link: "/",
+      },
+      {
+        name: "Hamkorlar",
+        link: "/",
+      },
+      {
+        name: "Takliflar",
+        link: "/",
+      },
+      {
+        name: "Blog",
+        link: "/",
+      },
+      {
+        name: "Yangiliklar",
+        link: "/",
+      },
+    ],
+  },
+  {
+    title: "Foydali Havola",
+    links: [
+      {
+        name: "Kontent",
+        link: "/",
+      },
+      {
+        name: "Qanday ishlaydi",
+        link: "/",
+      },
+      {
+        name: "Shartlar & Xizmatlar",
+        link: "/",
+      },
+    ],
+  },
+  {
+    title: "Hamkor",
+    links: [
+      {
+        name: "Bizning Hamkorimiz",
+        link: "/",
+      },
+      {
+        name: "Hamkor Bo'ling",
+        link: "/",
+      },
+    ],
   },
 ];

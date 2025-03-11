@@ -20,7 +20,7 @@ const Navbar = () => {
                   ${active === nav.id ? "text-white" : "text-zinc-400"}
                   hover:text-white transition-all duration-300`}
                   onClick={() => activeHandler(nav.id)}
-                  >{nav.title}</li>
+                  ><a href={`#${nav.id}`}>{nav.title}</a></li>
             ))}
         </ul>
         <div className={"sm:hidden flex flex-1 justify-end items-center"}>

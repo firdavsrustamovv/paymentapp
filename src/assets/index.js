@@ -11,6 +11,10 @@ import star from "./Star.5baf88ad0a72df4561e5b994f84ab6fe.svg";
 import shield from "./Shield.cacb339008a7436142b8c7ef42f59d31.svg";
 import send from "./Send.ef141d57be59e51c5b9987321c4311ed.svg";
 import quota from "./quotes.434c184457ebf3e0a409048091321839.svg";
+import binance from "./binance.png";
+import airlab from "./airbnb.png";
+import dropbox from "./dropbox.png";
+import coinbox from "./coinbase.png";
 export {
   logo,
   menu,
@@ -25,4 +29,8 @@ export {
   shield,
   send,
   quota,
+  binance,
+  airlab,
+  dropbox,
+  coinbox,
 };

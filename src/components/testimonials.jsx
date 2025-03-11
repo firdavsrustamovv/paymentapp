@@ -5,6 +5,7 @@ import FeedbackCard from './feedbackCard'
 
 const Testimonials = () => {
   return (
+    <section id='clients'>
     <div className={`${style.paddingY} ${style.flexCenter} flex-col relative`}>
         <div className="w-full flex justify-between  items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
             <h2 className={`${style.heading2}`}>
@@ -22,6 +23,8 @@ const Testimonials = () => {
           ))}
         </div>
     </div>
+
+    </section>
   )
 }
 
